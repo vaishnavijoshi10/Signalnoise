@@ -11,7 +11,7 @@ how to design an optimal filter that can significantly suppress noise without no
 speech distortion.
 
 DSP Technique used
-We have used LMS technique.Least mean squares (LMS) algorithms are class
+ The technique have used is  LMS algorithm.Least mean squares (LMS) algorithms are class
 of adaptive filter used to mimic a desired filter by finding the filter coefficients
 that relate to producing the least mean square of the error signal. In practice,
 we don’t know statistical information of the input such as the auto-correlation

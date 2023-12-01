@@ -1,0 +1,26 @@
+
+
+Signal Type                                                     SNR
+
+1. Desired Signal to Desired Signal                              0
+2. Desired Signal to Noise corrupted signal                     -0.0542
+3. Desired Signal to Signal after using LMS filter               1.6765
+
+
+System Analysis
+● The main advantage of adaptive filters is that the behavior of the
+adaptive filter changes depending on the characteristics of the
+signal under the filter.
+● Least mean squares (LMS) algorithms are a class of adaptive filter
+used to mimic a desired filter by finding the filter coefficients that
+relate to producing the least mean square of the error signal
+(difference between the desired and the actual signal).
+● The Least Mean Square (LMS) algorithm is familiar and simple to
+use for cancellation of noises. However, the low convergence rate
+and low signal to noise ratio are the limitations for this LMS
+algorithm.
+● As we change the step size(mu),the rate of convergence varies
+accordingly.It becomes higher with increase in the step size .
+● The code used 32 tap filters because it makes the error signal
+convergence quicker as compared to 8,16,24 tap lengths. With
+increase in tap lengths.

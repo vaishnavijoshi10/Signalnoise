@@ -18,8 +18,9 @@ we don’t know statistical information of the input such as the auto-correlatio
 function R xx Adaptive Filters and LMS algorithm does not need this
 information to accomplish noise cancellation. Furthermore, the LMS
 algorithm requires fewer mathematical complications than other algorithms
-(such as RLS), and is also easier to be implemented in practice.Estimated
-error: e(k) = y1(k) − y'2(k)
+(such as RLS), and is also easier to be implemented in practice.
+
+Estimated error: e(k) = y1(k) − y'2(k)
 Updated weight: w(k+ 1) = w(k) + μe(k)∗y2(k)
 where, μ=step size
 y1(k)desired signal at kth time

@@ -22,6 +22,7 @@ algorithm requires fewer mathematical complications than other algorithms
 
 Estimated error: e(k) = y1(k) − y'2(k)
 Updated weight: w(k+ 1) = w(k) + μe(k)∗y2(k)
+
 where, μ=step size
 y1(k)desired signal at kth time
 y'2(k):weighted pure noise corrupted signal at kth time
